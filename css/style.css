@@ -1,0 +1,49 @@
+:root{
+    --bg-color : #0D0D0D;
+    --layer-color :#f9f6f6ca;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: white;
+    overflow: hidden;
+}   
+.loadingScreen{
+    background-color: var(--bg-color);
+
+}
+
+.logo{
+    width: 50px;
+}
+
+.sideNavbar li,i{
+    cursor: pointer;
+
+}
+.transPart{
+    background-color: var(--bg-color);
+}
+
+
+.sideNavbar{
+    z-index: 1;
+}
+.pointer{
+    cursor: pointer;
+}
+.MealLayer{
+    width: 100%;
+    height: 100%;
+    background-color: var(--layer-color);
+    top: 100%;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.mealCard:hover .MealLayer{
+    top: 0;
+}
+.searchInput::placeholder{
+    color: var(--layer-color);
+}
